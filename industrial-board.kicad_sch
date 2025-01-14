@@ -8822,7 +8822,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e31116d-eb3b-4828-9c33-cd82f0b8bb5f")
-		(property "Reference" "C8"
+		(property "Reference" "C4"
 			(at 146.05 124.46 90)
 			(effects
 				(font
@@ -8874,7 +8874,7 @@
 		(instances
 			(project "escalator-board"
 				(path "/134c3394-7007-4a3f-89d9-4332a6c1de73"
-					(reference "C8")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -9355,7 +9355,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51211663-01db-4c83-9b8c-414e15bd36ce")
-		(property "Reference" "J5"
+		(property "Reference" "J3"
 			(at 208.28 140.9699 0)
 			(effects
 				(font
@@ -9412,7 +9412,7 @@
 		(instances
 			(project ""
 				(path "/134c3394-7007-4a3f-89d9-4332a6c1de73"
-					(reference "J5")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -10063,7 +10063,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "790c1c31-890c-48a9-9620-bf68eca497bd")
-		(property "Reference" "J2"
+		(property "Reference" "J4"
 			(at 242.57 119.3799 0)
 			(effects
 				(font
@@ -10153,7 +10153,7 @@
 		(instances
 			(project ""
 				(path "/134c3394-7007-4a3f-89d9-4332a6c1de73"
-					(reference "J2")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -10641,7 +10641,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "988bd83d-c591-4cd3-91bf-2ef41be64392")
-		(property "Reference" "C6"
+		(property "Reference" "C2"
 			(at 146.05 96.52 90)
 			(effects
 				(font
@@ -10693,7 +10693,7 @@
 		(instances
 			(project "escalator-board"
 				(path "/134c3394-7007-4a3f-89d9-4332a6c1de73"
-					(reference "C6")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -10709,7 +10709,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98e3d6d0-793a-44b5-9e70-df1775c614f2")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 208.28 106.6799 0)
 			(effects
 				(font
@@ -10802,7 +10802,7 @@
 		(instances
 			(project "escalator-board"
 				(path "/134c3394-7007-4a3f-89d9-4332a6c1de73"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -10950,7 +10950,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3293aa3-c872-4a1f-8d8a-7eca945c7179")
-		(property "Reference" "C5"
+		(property "Reference" "C1"
 			(at 146.05 82.55 90)
 			(effects
 				(font
@@ -11002,7 +11002,7 @@
 		(instances
 			(project "escalator-board"
 				(path "/134c3394-7007-4a3f-89d9-4332a6c1de73"
-					(reference "C5")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -11018,7 +11018,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a49772f7-d836-4549-9ffb-b458acdb8e05")
-		(property "Reference" "C24"
+		(property "Reference" "C5"
 			(at 43.18 111.7599 0)
 			(effects
 				(font
@@ -11072,7 +11072,7 @@
 		(instances
 			(project ""
 				(path "/134c3394-7007-4a3f-89d9-4332a6c1de73"
-					(reference "C24")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -11218,7 +11218,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b205dc57-c240-4e26-acb6-fbf4b6927744")
-		(property "Reference" "R7"
+		(property "Reference" "R2"
 			(at 245.11 50.7999 0)
 			(effects
 				(font
@@ -11272,7 +11272,7 @@
 		(instances
 			(project "escalator-board"
 				(path "/134c3394-7007-4a3f-89d9-4332a6c1de73"
-					(reference "R7")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -11354,7 +11354,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c08c2b8f-bb6a-43af-be67-769f98433c97")
-		(property "Reference" "C7"
+		(property "Reference" "C3"
 			(at 146.05 110.49 90)
 			(effects
 				(font
@@ -11406,7 +11406,7 @@
 		(instances
 			(project "escalator-board"
 				(path "/134c3394-7007-4a3f-89d9-4332a6c1de73"
-					(reference "C7")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -11422,7 +11422,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca1921f0-5831-401b-81ff-5cfb85dfab34")
-		(property "Reference" "BT2"
+		(property "Reference" "BT1"
 			(at 38.1 173.4184 0)
 			(effects
 				(font
@@ -11476,7 +11476,7 @@
 		(instances
 			(project "escalator-board"
 				(path "/134c3394-7007-4a3f-89d9-4332a6c1de73"
-					(reference "BT2")
+					(reference "BT1")
 					(unit 1)
 				)
 			)
@@ -11693,7 +11693,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7dbc724-62c0-4cbe-896c-60de7fd4f2f8")
-		(property "Reference" "C3"
+		(property "Reference" "C6"
 			(at 96.52 147.3199 0)
 			(effects
 				(font
@@ -11747,7 +11747,7 @@
 		(instances
 			(project "escalator-board"
 				(path "/134c3394-7007-4a3f-89d9-4332a6c1de73"
-					(reference "C3")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -11763,7 +11763,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e812ab25-2896-4592-8859-f9fee146527f")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 242.57 92.7099 0)
 			(effects
 				(font
@@ -11823,7 +11823,7 @@
 		(instances
 			(project ""
 				(path "/134c3394-7007-4a3f-89d9-4332a6c1de73"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -12038,7 +12038,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0f75275-480c-4f6c-93ea-f297e68f8ea5")
-		(property "Reference" "R51"
+		(property "Reference" "R1"
 			(at 45.72 100.33 90)
 			(effects
 				(font
@@ -12090,7 +12090,7 @@
 		(instances
 			(project ""
 				(path "/134c3394-7007-4a3f-89d9-4332a6c1de73"
-					(reference "R51")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -12459,7 +12459,7 @@
 			(uuid "0f180fd8-8e56-4823-ac35-23a05992bef0")
 		)
 		(instances
-			(project "escalator-board"
+			(project "industrial-board"
 				(path "/134c3394-7007-4a3f-89d9-4332a6c1de73"
 					(page "3")
 				)
@@ -12787,7 +12787,7 @@
 			(uuid "b4882f38-e028-4dbe-8ca0-0931f2bb91e0")
 		)
 		(instances
-			(project "escalator-board"
+			(project "industrial-board"
 				(path "/134c3394-7007-4a3f-89d9-4332a6c1de73"
 					(page "2")
 				)
