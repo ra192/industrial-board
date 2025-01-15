@@ -7288,7 +7288,7 @@
 		)
 		(uuid "1244a0f8-e8c2-483a-99a6-a20372775e1b")
 	)
-	(label "RS485-"
+	(label "RS485+"
 		(at 198.12 142.24 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7684,7 +7684,7 @@
 		)
 		(uuid "426268a0-ce51-458b-b659-013e04b66fee")
 	)
-	(label "RS485+"
+	(label "RS485-"
 		(at 198.12 139.7 180)
 		(fields_autoplaced yes)
 		(effects
