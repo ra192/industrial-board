@@ -1026,12 +1026,6 @@
 		(uuid "0a6a6cbe-4d41-4d21-91da-32788b55385f")
 	)
 	(junction
-		(at 52.07 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0e294a05-3bb7-42b2-8dd0-dee39b1e7d53")
-	)
-	(junction
 		(at 44.45 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1066,6 +1060,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b7b1c14-1d1b-4803-90b1-c549dd36d617")
+	)
+	(junction
+		(at 44.45 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "562c2b14-f41f-46fe-a707-412ac683c0c8")
 	)
 	(junction
 		(at 171.45 33.02)
@@ -1331,16 +1331,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 76.2) (xy 52.07 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16bbf628-2154-4020-ae3a-5d3ec6e833f1")
-	)
-	(wire
-		(pts
 			(xy 67.31 33.02) (xy 69.85 33.02)
 		)
 		(stroke
@@ -1348,16 +1338,6 @@
 			(type default)
 		)
 		(uuid "17a6cf4c-789b-453f-9098-e0372e98ebdb")
-	)
-	(wire
-		(pts
-			(xy 44.45 78.74) (xy 52.07 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17d8f869-ce1e-4af2-bda0-04a693ddbdf6")
 	)
 	(wire
 		(pts
@@ -1441,7 +1421,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 78.74) (xy 52.07 81.28)
+			(xy 44.45 78.74) (xy 44.45 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1828,6 +1808,16 @@
 			(type default)
 		)
 		(uuid "7e5f4e1c-62b0-4459-a175-d850b4a72750")
+	)
+	(wire
+		(pts
+			(xy 52.07 78.74) (xy 52.07 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82432a4c-b3e3-481c-a685-157db245fdf5")
 	)
 	(wire
 		(pts
@@ -2381,6 +2371,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 78.74) (xy 52.07 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f01d2740-e724-4654-89e7-8a26ece5acf4")
+	)
+	(wire
+		(pts
 			(xy 242.57 76.2) (xy 242.57 78.74)
 		)
 		(stroke
@@ -2482,7 +2482,6 @@
 	(hierarchical_label "DI1"
 		(shape passive)
 		(at 30.48 33.02 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2494,7 +2493,6 @@
 	(hierarchical_label "DI4"
 		(shape passive)
 		(at 220.98 33.02 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2506,7 +2504,6 @@
 	(hierarchical_label "DI3"
 		(shape passive)
 		(at 157.48 33.02 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2518,7 +2515,6 @@
 	(hierarchical_label "IN13"
 		(shape passive)
 		(at 69.85 147.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2530,7 +2526,6 @@
 	(hierarchical_label "IN6"
 		(shape passive)
 		(at 133.35 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2542,7 +2537,6 @@
 	(hierarchical_label "DI12"
 		(shape passive)
 		(at 220.98 109.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2554,7 +2548,6 @@
 	(hierarchical_label "IN7"
 		(shape passive)
 		(at 196.85 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2566,7 +2559,6 @@
 	(hierarchical_label "IP-"
 		(shape input)
 		(at 106.68 165.1 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2578,7 +2570,6 @@
 	(hierarchical_label "IN8"
 		(shape passive)
 		(at 260.35 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2590,7 +2581,6 @@
 	(hierarchical_label "DI6"
 		(shape passive)
 		(at 93.98 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2602,7 +2592,6 @@
 	(hierarchical_label "DI8"
 		(shape passive)
 		(at 220.98 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2614,7 +2603,6 @@
 	(hierarchical_label "IP+"
 		(shape input)
 		(at 106.68 154.94 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2626,7 +2614,6 @@
 	(hierarchical_label "IN10"
 		(shape passive)
 		(at 133.35 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2638,7 +2625,6 @@
 	(hierarchical_label "IN12"
 		(shape passive)
 		(at 260.35 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2650,7 +2636,6 @@
 	(hierarchical_label "IN4"
 		(shape passive)
 		(at 260.35 33.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2662,7 +2647,6 @@
 	(hierarchical_label "IN1"
 		(shape passive)
 		(at 69.85 33.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2674,7 +2658,6 @@
 	(hierarchical_label "IN3"
 		(shape passive)
 		(at 196.85 33.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2686,7 +2669,6 @@
 	(hierarchical_label "IN2"
 		(shape passive)
 		(at 133.35 33.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2698,7 +2680,6 @@
 	(hierarchical_label "DI5"
 		(shape passive)
 		(at 30.48 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2710,7 +2691,6 @@
 	(hierarchical_label "DI9"
 		(shape passive)
 		(at 30.48 109.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2722,7 +2702,6 @@
 	(hierarchical_label "IN5"
 		(shape passive)
 		(at 69.85 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2734,7 +2713,6 @@
 	(hierarchical_label "DI2"
 		(shape passive)
 		(at 93.98 33.02 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2746,7 +2724,6 @@
 	(hierarchical_label "DI10"
 		(shape passive)
 		(at 93.98 109.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2758,7 +2735,6 @@
 	(hierarchical_label "IN9"
 		(shape passive)
 		(at 69.85 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2770,7 +2746,6 @@
 	(hierarchical_label "CURR_SENS"
 		(shape output)
 		(at 158.75 160.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2782,7 +2757,6 @@
 	(hierarchical_label "DI11"
 		(shape passive)
 		(at 157.48 109.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2794,7 +2768,6 @@
 	(hierarchical_label "IN11"
 		(shape passive)
 		(at 196.85 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2806,7 +2779,6 @@
 	(hierarchical_label "DI13"
 		(shape passive)
 		(at 30.48 147.32 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2818,7 +2790,6 @@
 	(hierarchical_label "DI7"
 		(shape passive)
 		(at 157.48 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3831,10 +3802,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3062a925-a1ca-480a-a6aa-a912a2b8d30c")
 		(property "Reference" "C13"
-			(at 175.26 73.6599 0)
+			(at 164.084 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3842,8 +3812,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 175.26 76.1999 0)
+		(property "Value" "100nF"
+			(at 163.068 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4225,7 +4195,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 52.07 81.28 0)
+		(at 44.45 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4233,7 +4203,7 @@
 		(dnp no)
 		(uuid "426e04f3-3d0e-46b1-9fce-c888745cbdf8")
 		(property "Reference" "#PWR04"
-			(at 52.07 87.63 0)
+			(at 44.45 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4242,7 +4212,7 @@
 			)
 		)
 		(property "Value" "GND_IN"
-			(at 48.26 86.106 0)
+			(at 40.64 86.106 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4251,7 +4221,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 81.28 0)
+			(at 44.45 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4260,7 +4230,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 81.28 0)
+			(at 44.45 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4269,7 +4239,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 81.28 0)
+			(at 44.45 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4506,10 +4476,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "56870961-3cf1-4cdf-9c85-35569e730426")
 		(property "Reference" "C9"
-			(at 175.26 35.5599 0)
+			(at 165.608 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4517,8 +4486,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 175.26 38.0999 0)
+		(property "Value" "100nF"
+			(at 164.592 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4576,10 +4545,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5c3dc695-8901-468a-9f65-f088495e60db")
 		(property "Reference" "C19"
-			(at 48.26 149.8599 0)
+			(at 37.592 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4587,8 +4555,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 48.26 152.3999 0)
+		(property "Value" "100nF"
+			(at 36.576 153.924 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5194,10 +5162,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "74c4e2e7-512b-4c1f-bdaa-0f7fd2b2faf7")
 		(property "Reference" "C8"
-			(at 111.76 35.5599 0)
+			(at 102.108 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5205,8 +5172,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 111.76 38.0999 0)
+		(property "Value" "100nF"
+			(at 100.584 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5622,10 +5589,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "95d34fdb-6a32-4aed-a937-6e7c0c083cae")
 		(property "Reference" "C18"
-			(at 238.76 111.7599 0)
+			(at 228.092 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5633,8 +5599,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 238.76 114.2999 0)
+		(property "Value" "100nF"
+			(at 227.584 115.824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5837,7 +5803,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 96.52 161.2899 0)
 			(effects
 				(font
@@ -6386,7 +6352,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1nF"
 			(at 135.89 170.1799 0)
 			(effects
 				(font
@@ -6445,10 +6411,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bc6d7537-06eb-4118-a0e2-b31304246832")
 		(property "Reference" "C11"
-			(at 48.26 73.6599 0)
+			(at 37.592 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6456,8 +6421,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 48.26 76.1999 0)
+		(property "Value" "100nF"
+			(at 36.576 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6726,10 +6691,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c77895d7-2325-4e19-9f76-e531bced9ce4")
 		(property "Reference" "C17"
-			(at 175.26 111.7599 0)
+			(at 164.846 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6737,8 +6701,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 175.26 114.2999 0)
+		(property "Value" "100nF"
+			(at 164.084 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6796,10 +6760,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c7c18b5c-cd44-4c22-b06e-0bce939bc0da")
 		(property "Reference" "C14"
-			(at 238.76 73.6599 0)
+			(at 228.092 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6807,8 +6770,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 238.76 76.1999 0)
+		(property "Value" "100nF"
+			(at 227.076 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6998,10 +6961,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d67ae15c-3116-45b0-80f4-44a5baa2fd0d")
 		(property "Reference" "C7"
-			(at 48.26 35.5599 0)
+			(at 39.37 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7009,8 +6971,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 48.26 38.0999 0)
+		(property "Value" "100nF"
+			(at 38.1 39.116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7290,10 +7252,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e19b6721-7a12-4be0-8a6f-b2aabb0ec0a0")
 		(property "Reference" "C15"
-			(at 48.26 111.7599 0)
+			(at 37.338 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7301,8 +7262,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 48.26 114.2999 0)
+		(property "Value" "100nF"
+			(at 36.322 115.824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7426,10 +7387,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e4c934e4-a993-4cb8-b55c-4aeabbec140d")
 		(property "Reference" "C16"
-			(at 111.76 111.7599 0)
+			(at 101.346 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7437,8 +7397,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 111.76 114.2999 0)
+		(property "Value" "100nF"
+			(at 100.33 115.824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7841,10 +7801,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f85aabd3-cc85-40ec-b31f-47d16d216dee")
 		(property "Reference" "C10"
-			(at 238.76 35.5599 0)
+			(at 228.346 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7852,8 +7811,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 238.76 38.0999 0)
+		(property "Value" "100nF"
+			(at 227.076 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7911,10 +7870,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "feb24bf7-9c4b-4264-9e4d-c558af1fae49")
 		(property "Reference" "C12"
-			(at 111.76 73.6599 0)
+			(at 101.346 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7922,8 +7880,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 111.76 76.1999 0)
+		(property "Value" "100nF"
+			(at 100.584 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
